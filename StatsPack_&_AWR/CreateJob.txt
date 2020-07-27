@@ -1,0 +1,5 @@
+conn perfstat/perfstat8189@dbpd005
+variable x number
+exec dbms_job.submit(:x,'statspack.snap(i_snap_level=>10);',sysdate,'sysdate+15/1440')
+commit;
+print x

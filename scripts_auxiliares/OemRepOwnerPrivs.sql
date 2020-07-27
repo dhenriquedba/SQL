@@ -1,0 +1,12 @@
+grant  ALTER SESSION         to oem_repository_owner;
+grant  CREATE CLUSTER        to oem_repository_owner;
+grant  CREATE DATABASE LINK  to oem_repository_owner;
+grant  CREATE SEQUENCE       to oem_repository_owner;
+grant  CREATE SESSION        to oem_repository_owner;
+grant  CREATE SYNONYM        to oem_repository_owner;
+grant  CREATE TABLE          to oem_repository_owner;
+grant  CREATE VIEW           to oem_repository_owner;
+grant  CREATE PROCEDURE      to oem_repository_owner;                                                                                                                        
+grant  CREATE TRIGGER        to oem_repository_owner;                                                                                                                        
+grant  EXECUTE ANY PROCEDURE to oem_repository_owner;                                                                                                                        
+grant  SELECT ANY TABLE      to oem_repository_owner;                                                                                                                        

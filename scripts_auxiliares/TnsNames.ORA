@@ -1,0 +1,29 @@
+AMLP =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.152.231.85)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = AMLP)
+    )
+  )
+
+AMLD =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.152.0.122)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = amld)
+    )
+  )
+
+AMLA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.152.144.92)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = amla)
+    )
+  )
